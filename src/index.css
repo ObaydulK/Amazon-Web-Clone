@@ -27,6 +27,37 @@ code {
 
 }
 
+#Serchbox{
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.Header_option_line_two{
+  font-size: 13px;
+  font-weight: 800;
+}
+.Header_option_line_one{
+
+}
 
 
 
+
+
+
+/* home partd is header option home part  */
+.Home_Product{
+  display: flex; 
+  gap: 10px;
+  justify-content: center ;
+  border: 2px solid black;
+  padding: 10px;
+
+}
+.demo{
+  height: 100px;
+  width: auto;
+  background: #000;
+}
