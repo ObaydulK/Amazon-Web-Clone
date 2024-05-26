@@ -1,28 +1,23 @@
-import React from 'react';
-import Product from './Product/Product';
+// import React, { useState } from 'react';
+import Slider from '../Slick-Slider/Slider';
+import Card from '../Card/Card';
 
 function Home() {
+    // const [cards, Setcards]=useState();
     return (
         <div >
-            <div className='pt-20  '>
-                <div className='h-40 bg-slate-400' ></div>
-                <img src="" alt="" />
-            </div>
-           
-            <div>
-                <div className="Home_Product">
-                    <Product />
-                    <Product />
-                </div>
-                <div className="Home_Product">
-                    <Product />
-                    <Product />
-                    <Product />
-                </div>
-                <div className="Home_Product">
-                    <Product />
-                    <Product />
-                </div>
+            <Slider />
+
+            <div className=' grid grid-flow-row grid-cols-4 gap-4 p-4'>
+
+                <Card title='i have a find' button='See ' />
+
+
+                {/* {
+                cards.map(card => <Card key={card.id} card={card}></Card>)
+             } */}
+
+
             </div>
         </div>
     );
