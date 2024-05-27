@@ -12,6 +12,8 @@ function Home() {
 
                 <Gaming Title="Look nich" button='See ' />
                 <Fashion Title="Shop Deals in Fashion"   button="See All Deals"/>
+                <Fashion Title="Shop Deals in Fashion"   button="See All Deals"/>
+                <Fashion Title="Shop Deals in Fashion"   button="See All Deals"/>
 
                 {/* {
                 cards.map(card => <Card key={card.id} card={card}></Card>)

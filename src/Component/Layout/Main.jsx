@@ -1,7 +1,8 @@
 import React from 'react';
 import "../../index.css";
-import Header from '../../Component/Pages/Header/Header'; 
+import Header from '../Header/Header'; 
 import { Outlet } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 function Main() {
     return (
@@ -9,6 +10,7 @@ function Main() {
             <div className='  '>
                 <Header />
                 <Outlet />
+                <Footer/>
             </div>
         </>
     );

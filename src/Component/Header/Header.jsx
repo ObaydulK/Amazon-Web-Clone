@@ -1,8 +1,8 @@
 import React from 'react';
-import "../../../index.css"
+import "../../index.css"
 import Amazonlogo from "./Amazon-Logo-Imag.png"
 import Nevber from './Nevber/Nevber';
-import Home from '../Home/Home';
+import Home from '../Pages/Home/Home';
 import { Link } from 'react-router-dom';
 
 function Header() {
@@ -53,7 +53,6 @@ function Header() {
                         </div>
                     </div>
                 </div>
-
                 <Nevber />
             </div>
             <Home />
