@@ -1,0 +1,29 @@
+import * as React from "react";
+import * as ReactDOM from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import "./index.css";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello world!</div>,
+  },
+]);
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
+
+
+Pre-requisite Courses: CSE 06111101  
+Part- 01 Present the evolvement of programming languages over time (from 1951 to till to date). Break the evolvement in decade interval and discuss the languages introduced in every decade.                                                        Assignment- 01                                                                         Part- 01 Present the evolvement of programming languages over time (from 1951 to till to date). Break the evolvement in decade interval and discuss the languages introduced in every decade.
+Part- 02 Find out the five most in demand programming languages of now and for next five years. Write their features and purpose in brief. 
+
+Part- 03 Write a critical review of 300 words justifying why you shall learn C before learning any of the most in demand languages of 2020.
+
+

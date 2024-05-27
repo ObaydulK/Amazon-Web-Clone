@@ -2,23 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Nevber() {
-
-
-    
     const Nevber =
         <>
             <li> <Link to="/">Today's Deals</Link> </li>
             <li> <Link to="/service">Customer Service</Link> </li>
-            <li> <Link to="/registroy">Registry</Link> </li>
+            <li> <Link to="/registry">Registry</Link> </li>
             <li> <Link to="/gift">Gift Cards</Link> </li>
-            <li> <Link to="/sell">Sell</Link> </li> 
+            <li> <Link to="/sell">Sell</Link> </li>
         </>
-
-
-
     return (
         <div>
-            <div className=" bg-base-100">
+            <div className="  ">
                 <div className=" ">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,7 +28,7 @@ function Nevber() {
                     <ul className="menu menu-horizontal px-1">
                         {Nevber}
                     </ul>
-                </div> 
+                </div>
             </div>
         </div>
     );
